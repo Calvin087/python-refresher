@@ -22,6 +22,11 @@ l.append("Jen")
 print(l)
 # Tuples cannot be appended to because they are immutable.
 
+# Remove from a list by using `.remove`
+
+l.remove("Bob")
+print(l)
+
 # Add to sets by using `.add`
 
 s.add("Jen")
